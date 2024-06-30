@@ -13,6 +13,19 @@ while f < 100:
     j,f = f, j + f
 
 
+"4)Variables let, var y const, explicar"
+#La variable let, siendo la forma moderna de declarar variables en JavaScript
+# con un Ámbito de bloque (dentro de llaves {}),
+# y puede ser reasignada, pero no re-declarada.
+
+#La variable var, siendo la menos usada actualmente
+#con un Ámbito global si se declara fuera de una funcion y local si se declada dentro de una
+#puede redeclarar y modificar en el mismo ámbito
+
+#La variable Const, usado para declarar constantes(valores que no cambian)
+# con un ambito de bloque igual que let(es decir dentro de {})
+#tiene inmutabilidad, no se puede reasignar despues de la declaracion inicial,
+# pero el valor puede ser mutable(objetos,arrays)
 
 
 
