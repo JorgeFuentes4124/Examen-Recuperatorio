@@ -20,7 +20,6 @@ function Ordenar_Array() {
     console.log(array);
 }
 
-document.getElementById('Ordenar_Array').addEventListener('click', Ordenar_Array);
 
 
 
